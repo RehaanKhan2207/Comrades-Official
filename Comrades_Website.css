@@ -1,0 +1,496 @@
+.login-button {
+  display: inline-block;
+  background-color: rgb(1, 1, 55);
+  color: rgb(246, 238, 222);
+  height: 60px;
+  width: 150px;
+  font-size: 30px; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  margin-top: -180px;
+  margin-left: 2100px;
+}
+
+.login-button:hover {
+  opacity:0.5 ;
+}
+
+.login-button:active {
+  opacity:0.4;
+}
+
+.Section-1 {
+  font-family: 'Arial Black', sans-serif;
+  font-weight: 900;
+  font-size: 36px;
+  color: #232b3b;
+  background-color: #f0f6ff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 20px;
+  margin: 0 auto;            
+  width: fit-content;         
+  text-align: center;
+}
+.Tournament {
+display: inline-block;
+font-family: 'Franklin Gothic Medium';
+background-color:rgb(1, 1, 55) ;
+color:rgb(246, 238, 222) ;
+font-size: 30px;
+margin-top: -5px;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 50px;
+padding-right: 50px;
+margin-left: 80px;
+}
+.match-1{
+  font-family: 'Franklin Gothic Medium';
+  background-color:rgb(1, 1, 55) ;
+  color:rgb(246, 238, 222) ;
+  font-size: 30px;
+  margin-top: -5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 80px;
+}
+.date {
+  display: inline-block;
+  font-family: 'Franklin Gothic Medium';
+  background-color:rgb(1, 1, 55) ;
+  color:rgb(246, 238, 222) ;
+  font-size: 30px;
+  margin-top: -5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 80px;
+}
+.venue {
+  display: inline-block;
+  font-family: 'Franklin Gothic Medium';
+  background-color:rgb(1, 1, 55) ;
+  color:rgb(246, 238, 222) ;
+  font-size: 30px;
+  margin-top: -5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 80px;
+}
+.weblogo{
+  display: inline-block;
+  margin-left: 80px;
+  margin-top: 20px;
+  width:150px ;
+  background-color: white;
+  border-style: solid;
+  border: none;
+  background-color: white;
+  border-radius: 75px;
+}
+.weblogo1,
+.weblogo2{
+  display: inline-block;
+  margin-left: 80px;
+  margin-top: 20px;
+  width:50px ;
+  background-color: white;
+  border-style: solid;
+  border: none;
+  background-color: white;
+  border-radius: 75px;
+}
+.T1,.T2{
+  display: inline-block;
+  font-family: 'Franklin Gothic Medium';
+  font-size: 30px;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #eff6ff; /* Tailwind's bg-blue-50 */
+}
+
+.main-container {
+  background-color: #eff6ff;
+  border: -10px solid #1f2937; /* Tailwind's border-gray-800 */
+  color: #1f2937; /* Tailwind's text-gray-800 */
+  border-style: solid;
+  border-color: #EFF6FF;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  padding: 2rem;
+  max-width: 4200px;
+  margin: 2rem auto;
+}
+
+.header-section {
+  margin-bottom: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.logo-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 9999px;
+  object-fit: cover;
+}
+
+.title {
+  color: #232b3b;
+  font-size:36px;
+  font-weight: 900;
+  padding: 1.25rem;
+  letter-spacing: 0.05em;
+}
+
+.divider1 {
+  height: 0.25rem;
+  width: 8rem;
+  background-color: #2563eb; /* Tailwind's bg-blue-600 */
+  margin-top: 0.5rem;
+  margin-left: 1080px;
+}
+.divider2{
+  height: 0.25rem;
+  width: 8rem;
+  background-color: #2563eb; /* Tailwind's bg-blue-600 */
+  margin-top: 0.5rem;
+}
+
+.blocks-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.block {
+  transition: transform 0.3s ease;
+}
+
+.block:hover {
+  transform: scale(1.05);
+}
+
+.block-content {
+  width: 400px;
+  height: 620px;
+  background-color: #ffffff;
+  border: 2px solid #1f2937;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 100px;
+  cursor: pointer;
+}
+
+.block-img {
+  width: 400px;
+  height: 600px;
+  object-fit: fill;
+  border-radius: 0.375rem;
+  margin-right: 100px;
+}
+
+.block-caption {
+  font-family: 'Franklin Gothic Medium';
+  background-color:rgb(1, 1, 55)  ;
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color:rgb(246, 238, 222) ;
+}
+.players-ranking-section {
+  padding: 5rem 1rem;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  font-family: 'Arial Black', sans-serif;
+  font-weight: 900;
+  font-size: 36px;
+  color: #1f2937; /* Tailwind's text-gray-800 */
+  letter-spacing: 0.05em;
+}
+
+.underline {
+  height: 4px;
+  width: 9rem; /* 36 x 16 = 576px */
+  background-color: #2563eb; /* Tailwind's bg-blue-600 */
+  margin: 0.5rem auto 0;
+}
+
+.blocks-container2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+.block-img2 {
+  width:315px;
+  height: 335px; /* 64 x 4 = 256px */
+  object-fit: fill;
+  border-radius: 0.5rem;
+}
+
+.ranking-block {
+  transition: transform 0.3s ease;
+}
+
+.ranking-block:hover {
+  transform: scale(1.05);
+}
+
+.block-content2 {
+  width: 365px;
+  height: 410px; 
+  background-color: white;
+  border: 2px solid #1f2937;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.gallery-section {
+  padding: 3rem 1rem;
+}
+
+.gallery-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.gallery-title {
+  font-family: 'Arial Black', sans-serif;
+  font-weight: 900;
+  font-size: 36px;
+  color: #1f2937; /* Tailwind's text-gray-800 */
+  letter-spacing: 0.05em;
+}
+
+.gallery-underline {
+  height: 4px;
+  width: 6rem; /* w-24 = 96px */
+  background-color: #2563eb; /* Tailwind's bg-blue-600 */
+  margin: 0.5rem auto 0;
+}
+
+.gallery-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-block {
+  transition: transform 0.3s ease;
+}
+
+.gallery-block:hover {
+  transform: scale(1.05);
+}
+
+.block-content3 {
+  width: 256px; /* w-64 */
+  height: 320px; /* h-80 */
+  background-color: white;
+  border: 2px solid #1f2937; /* border-gray-800 */
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  box-sizing: border-box;
+}
+
+.block-img3 {
+  width: 100%;
+  height: 256px; /* h-64 */
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.block-caption3 {
+  text-align: center;
+  margin-top: 0.75rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f6ff;
+}
+
+.upcoming-section {
+  padding: 50px 20px 40px;
+  position: relative;
+}
+
+.logo-box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.cricket-logo {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #2563eb;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  max-height: fit-content;
+  max-width: 2200px;
+  margin: 0 auto;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.section-header h2 {
+  font-size: 2rem;
+  color: #1f2937;
+  font-weight: bold;
+}
+
+.underline {
+  width: 144px;
+  height: 4px;
+  background-color: #2563eb;
+  margin: 8px auto 0;
+}
+
+.filter-btn {
+  padding: 10px 20px;
+  background-color: #1f2937;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.filter-btn:hover{
+transform: scale(1.03);
+}
+
+.matches-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 55px;
+}
+
+.match-card {
+  background-color: white;
+  border: 2px solid #1f2937;
+  border-radius: 12px;
+  padding: 20px;
+  width: 320px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.match-card:hover {
+  transform: scale(1.03);
+}
+
+.match-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  color: #6b7280;
+  margin-bottom: 12px;
+}
+
+.match-type {
+  color: #2563eb;
+  font-weight: bold;
+}
+
+.teams .team {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.team img {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+.team-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.venue {
+  background-color:white;
+  font-size: 18px;
+  color:#1f2937;
+  display: flex;
+  gap: 6px;
+  margin-bottom: 16px;
+  margin-left: -2px;
+}
+
+.venue-icon {
+  width: 86px;
+  height: 36px;
+  stroke: currentColor;
+}
+
+.match-info-btn {
+  background-color: #1f2937;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  font-size: 24px;
+  transition: opacity 0.15s;
+}
+
+
